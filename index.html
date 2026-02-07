@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ぷよぷよプログラミングを体験してみよう ! </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="src/config.js"></script>
+    <script src="src/puyoimage.js"></script>
+    <script src="src/stage.js"></script>
+    <script src="src/score.js"></script>
+    <script src="src/player.js"></script>
+    <script src="src/game.js"></script>
+    <script src="src/sounds.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- <body style="margin:0;"> -->
+    <div id="stage" style="position:relative; margin: 0 auto; overflow: hidden;background: url(img/puyo_4bg.png)"></div>
+    <div id="score" style="margin: 0 auto; overflow: hidden; text-align: right;"></div>
+    <div style="display:none">
+        <img src="img/puyo_1.png" id="puyo_1">
+        <img src="img/puyo_2.png" id="puyo_2">
+        <img src="img/puyo_3.png" id="puyo_3">
+        <img src="img/puyo_4.png" id="puyo_4">
+        <img src="img/puyo_5.png" id="puyo_5">
+        <img src="img/batankyu.png" id="batankyu"><!--ばたんきゅー-->
+        <img src="img/zenkeshi.png" id="zenkeshi"><!--全消し-->
+        <!-- スコア -->
+        <img src="img/0.png" id="font0">
+        <img src="img/1.png" id="font1">
+        <img src="img/2.png" id="font2">
+        <img src="img/3.png" id="font3">
+        <img src="img/4.png" id="font4">
+        <img src="img/5.png" id="font5">
+        <img src="img/6.png" id="font6">
+        <img src="img/7.png" id="font7">
+        <img src="img/8.png" id="font8">
+        <img src="img/9.png" id="font9">
+        <audio id="bgm" loop>
+
+<audio id="bgm" src="249_BPM118.mp3" preload="auto" loop></audio>
+  <source src="BGM/249_BPM118.mp3" type="audio/mpeg">
+
+    </div>
+</body>
+</html>
